@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="JoyCasino">
+  <defs>
+    <linearGradient id="fJc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#1E6F4B"/>
+      <stop offset="100%" stop-color="#0B3624"/>
+    </linearGradient>
+    <linearGradient id="fJg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#FFF3C4"/>
+      <stop offset="100%" stop-color="#B47A1B"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="64" height="64" rx="14" fill="#0E1017"/>
+  <rect x="6" y="16" width="52" height="32" rx="16" fill="url(#fJc)" stroke="#8A5D14" stroke-width="1.4"/>
+  <text x="32" y="40" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="24"
+        fill="url(#fJg)" stroke="#5A3B0A" stroke-width="0.6" paint-order="stroke fill">J</text>
+</svg>

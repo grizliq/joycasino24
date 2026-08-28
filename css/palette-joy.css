@@ -1,0 +1,38 @@
+/* JoyCasino — тёмная тема (изумруд + золото + медь).
+   На основе реальной палитры JoyCasino: эмерльдовая плашка + золотая типографика + оранжево-медные категории.
+   Подключать после tokens.css */
+
+:root {
+  /* Роли темы */
+  --jc-bg:            #0E1017;   /* глубокая ink-навигация */
+  --jc-surface:       #171A24;
+  --jc-surface-2:     #1F2331;
+  --jc-panel:         #262B3A;
+  --jc-text:          #FFFFFF;
+  --jc-text-soft:     #C7CCDA;
+  --jc-text-muted:    #808898;
+
+  /* Бренд-акценты JoyCasino */
+  --jc-emerald:       #134E33;   /* цвет плашки */
+  --jc-emerald-hi:    #1E6F4B;
+  --jc-emerald-deep:  #0B3624;
+  --jc-gold:          #F5D387;   /* золотая типографика */
+  --jc-gold-hi:       #FFF3C4;
+  --jc-gold-deep:     #B47A1B;
+  --jc-copper:        #C56B2D;   /* оранжево-медный (кнопки категорий) */
+  --jc-copper-hi:     #E58540;
+  --jc-copper-deep:   #7A3D14;
+
+  /* Совместимость со старыми lb-c-* переменными блоков */
+  --lb-c-2589FF:      #F5D387;   /* accent → золото */
+  --lb-c-25475C:      #C7CCDA;
+  --lb-c-111117:      #FFFFFF;
+  --lb-c-FFFFFF:      #FFFFFF;
+  --lb-c-5A7EA8:      #262B3A;
+  --lb-c-2A7AD9:      #134E33;
+  --lb-c-262D36:      #1F2331;
+  --lb-c-06060C:      #0E1017;
+  --lb-c-09091C:      #171A24;
+
+  color-scheme: dark;
+}

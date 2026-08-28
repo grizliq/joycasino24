@@ -1,0 +1,70 @@
+<svg width="440" height="440" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="JoyCasino coin">
+  <defs>
+    <radialGradient id="jcGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%"   stop-color="#F5D387" stop-opacity="0.55"/>
+      <stop offset="45%"  stop-color="#134E33" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0E1017" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="jcCoin" cx="35%" cy="30%" r="80%">
+      <stop offset="0%"  stop-color="#FFF3C4"/>
+      <stop offset="45%" stop-color="#F5D387"/>
+      <stop offset="100%" stop-color="#8A5D14"/>
+    </radialGradient>
+    <linearGradient id="jcCoinEdge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#F5D387"/>
+      <stop offset="100%" stop-color="#5A3B0A"/>
+    </linearGradient>
+    <linearGradient id="jcJ" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#FFF3C4"/>
+      <stop offset="100%" stop-color="#B47A1B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Фоновое сияние -->
+  <circle cx="100" cy="100" r="98" fill="url(#jcGlow)"/>
+
+  <!-- Три монеты (задние) -->
+  <g opacity="0.85">
+    <ellipse cx="42" cy="150" rx="22" ry="20" fill="url(#jcCoin)" stroke="#5A3B0A" stroke-width="1.5"/>
+    <ellipse cx="158" cy="150" rx="22" ry="20" fill="url(#jcCoin)" stroke="#5A3B0A" stroke-width="1.5"/>
+    <ellipse cx="72" cy="170" rx="18" ry="16" fill="url(#jcCoin)" stroke="#5A3B0A" stroke-width="1.2"/>
+    <ellipse cx="130" cy="170" rx="18" ry="16" fill="url(#jcCoin)" stroke="#5A3B0A" stroke-width="1.2"/>
+    <text x="42" y="156" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="18" fill="#5A3B0A">$</text>
+    <text x="158" y="156" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="18" fill="#5A3B0A">€</text>
+  </g>
+
+  <!-- Центральная большая монета -->
+  <circle cx="100" cy="90" r="66" fill="url(#jcCoinEdge)" stroke="#3A2405" stroke-width="2"/>
+  <circle cx="100" cy="90" r="58" fill="url(#jcCoin)" stroke="#7A5210" stroke-width="1.6"/>
+
+  <!-- Насечки по краю -->
+  <g stroke="#3A2405" stroke-width="1" opacity="0.55">
+    <line x1="100" y1="26" x2="100" y2="30"/>
+    <line x1="100" y1="150" x2="100" y2="154"/>
+    <line x1="36" y1="90" x2="40" y2="90"/>
+    <line x1="160" y1="90" x2="164" y2="90"/>
+    <line x1="55" y1="45" x2="58" y2="48"/>
+    <line x1="145" y1="45" x2="142" y2="48"/>
+    <line x1="55" y1="135" x2="58" y2="132"/>
+    <line x1="145" y1="135" x2="142" y2="132"/>
+  </g>
+
+  <!-- Буква J в центре -->
+  <text x="100" y="120"
+        text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-weight="700"
+        font-size="90"
+        fill="url(#jcJ)"
+        stroke="#5A3B0A"
+        stroke-width="1.4"
+        paint-order="stroke fill">J</text>
+
+  <!-- Мини-звёздочки -->
+  <g fill="#FFF3C4" opacity="0.85">
+    <path d="M40 30 L42 34 L46 34 L43 37 L44 41 L40 39 L36 41 L37 37 L34 34 L38 34 Z"/>
+    <path d="M158 32 L160 36 L164 36 L161 39 L162 43 L158 41 L154 43 L155 39 L152 36 L156 36 Z"/>
+    <path d="M20 108 L22 112 L26 112 L23 115 L24 119 L20 117 L16 119 L17 115 L14 112 L18 112 Z"/>
+    <path d="M180 108 L182 112 L186 112 L183 115 L184 119 L180 117 L176 119 L177 115 L174 112 L178 112 Z"/>
+  </g>
+</svg>
